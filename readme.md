@@ -33,7 +33,7 @@ speficiy and complex module logic places, then allow you to reuse them in any ot
 template.
 
 class namespace:
-nh_list_view - see documentation [here](myLib/README.md)
+nh_list_view - see documentation [here](https://github.com/JAFisher/nohtml/blob/master/nh_list_view.md)
 
 #### Storage
 
