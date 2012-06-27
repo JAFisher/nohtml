@@ -1,0 +1,94 @@
+div[class^="icon-"], div[class*=" icon-"]{
+	display: inline-block;
+	width: 28px;
+	height: 28px;
+	line-height: 14px;
+	vertical-align: text-top;
+	background-image: url("buttons/glyphicons.png");
+	background-position: 0px 0px;
+	background-repeat: no-repeat;
+}
+
+#tab-container {
+	height: 65px;
+	width:100%;
+	position: fixed;
+	bottom: 0px;
+	z-index: 3;
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #75B7E8), color-stop(0.05, #38586F), color-stop(1, #121C24));
+}
+
+
+#tab-relative > div {
+	width: 60px;
+	height: 50px;
+	margin-top: 8px;
+	margin-left: 5px;
+	margin-right: 5px;	
+	display:inline-block;
+	background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 10px;
+}
+
+#tab-relative {
+	position: relative;
+	text-align:center;
+	height:100%;
+}
+
+#tab-relative > div > div {
+	margin-top: 10px;
+}
+
+.scroller {
+	padding-bottom:110px !important;
+}
+
+.body_scroller {
+	padding-bottom:110px !important;
+}
+
+
+.icon-glass {
+	background-position: 0px 0px !important;	
+}
+
+.icon-leaf {
+	background-position: -50px 0px !important;	
+}
+
+.icon-dog {
+	background-position: -96px 0px !important;		
+}
+
+.icon-person {
+	background-position: -146px 0px !important;
+}
+
+.icon-back{
+	background-position: -50px -1060px !important;
+}
+
+.nh-back {
+	width: 28px;
+	height: 35px;
+	position: absolute;
+	top: 4px;
+	padding-left: 10px;
+	left: 5px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	line-height: 36px;
+	font-weight: bold;
+	font-size: 12px;
+	border-radius: 20px;
+	background-image: -webkit-gradient(linear, 0 0, 0 100%,  color-stop(0.25, #fff), color-stop(1, #121C24));	
+	border: 1px solid #1e1454;
+}
+
+.nh-back-child {
+	position: absolute;
+	left: 12px;
+	top: 12px;
+}
+
