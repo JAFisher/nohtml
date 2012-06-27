@@ -1,4 +1,4 @@
-#Documentation for the NH (nohtml: List View)
+#Documentation for the nh_list_view
 
 ###Description:  
 
