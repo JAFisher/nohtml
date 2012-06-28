@@ -1,5 +1,5 @@
 function nh_database(){
-	 nh_database;
+	 
 }
 
 nh_database.prototype.save = function(value, callback){
