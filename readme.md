@@ -1,11 +1,6 @@
 ## NO HTML 
 
-Say goodbye to poor ajax logic, say hello to your new best friend no html, is built to be an extendable javascript framework where modules can be added
-in with rapid speed, destoryed memory mangament and mix in logic for express template design.
-
-Would i say this is an mvc? no... i would say it a rapid module templating engine for JS apps.
-
-What that mean in real terms? rapid development! small footprint.
+NO HTML is a templating engine run through js, that elimates the need to create many html files...
 
 ### Logic, Containers, Modules & Storage 
 
