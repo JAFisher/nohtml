@@ -29,8 +29,7 @@ nh_page - see documentation [here](myLib/README.md) | see examples [here]()
 #### Modules
 
 No Html backbone is it modules these templates are run at render times allowing you put
-speficiy and complex module logic places, then allow you to reuse them in any other page
-template.
+complex module logic places & then allow you to reuse them at later dates in other containers.
 
 class namespace:
 nh_list_view - see documentation [here](https://github.com/JAFisher/nohtml/blob/master/nh_list_view.md)
