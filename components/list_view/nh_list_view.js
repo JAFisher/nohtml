@@ -163,6 +163,8 @@ nh_list_view.prototype.lazyLoad = function(rendered, loadBackup)
 	 			});
 				this.scroller.refresh();
 
+	 		} else {
+	 			$(scroll).css('height', 'inherit');
 	 		}
 
 

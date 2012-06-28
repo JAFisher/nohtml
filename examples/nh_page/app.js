@@ -30,6 +30,7 @@ function app()
 			
 		page = new nh_page();
 		page2 = new nh_page();
+
 		nohtml.addTab({ name:"filter0", type:"button", logo: "glass" });
 		nohtml.addTab({ name:"filter1", type:"button", logo: "leaf" });
 		nohtml.addTab({ name:"filter2", type:"button", logo: "person" });
