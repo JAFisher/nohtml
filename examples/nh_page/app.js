@@ -4,22 +4,21 @@ var page2;
 var data = '';
 var list;
 var peridocTable = 	'<li id="{{id}}"  class="group_{{group}} symbolbox" \
-						onclick="app.detailedView({{id}})" \
-						class="{{#_featured}} featured {{/_featured}} \
-						{{#_seperator}} odd {{/_seperator}} \
-						{{#group}} group_{{group}} {{/group}}" \
-					> \
-						{{#image}} \
-							<img class="image" src="{{image}}" /> \
-						{{/image}} \
-						{{#symbol}} \
-							<div class="Large"> {{symbol}} <span class="small"> \
-							{{id}} </span> </div> \
-						{{/symbol}} \
-						{{#element}} \
-							<div class="fullname"> {{element}} </div> \
-						{{/element}} \
-					</li> ';
+			onclick="app.detailedView({{id}})" \
+			class="{{#_featured}} featured {{/_featured}} \
+			{{#_seperator}} odd {{/_seperator}} \
+			{{#group}} group_{{group}} {{/group}}" > \
+			{{#image}} \
+				<img class="image" src="{{image}}" /> \
+			{{/image}} \
+			{{#symbol}} \
+				<div class="Large"> {{symbol}} <span class="small"> \
+				{{id}} </span> </div> \
+			{{/symbol}} \
+			{{#element}} \
+				<div class="fullname"> {{element}} </div> \
+			{{/element}} \
+			</li> ';
 
 function app()
 {
@@ -39,12 +38,12 @@ function app()
 		nohtml.showTabs();
 		
 
-		page2.head_template = '<div class="header" id="head_{{id}}"> \
-							   <div class="nh-back " onclick="nh_page.goBack()"> </div> \
-							   <div onclick="nh_page.goBack()" \
-							   class="icon-back nh-back-child"> </div> \
-							   <div> {{#title}} {{title}} {{/title}} </div> \
-							   </div>';	
+		page2.head_template =  '<div class="header" id="head_{{id}}"> \
+					<div class="nh-back " onclick="nh_page.goBack()"> </div> \
+					<div onclick="nh_page.goBack()" \
+					class="icon-back nh-back-child"> </div> \
+					<div> {{#title}} {{title}} {{/title}} </div> \
+					</div>';	
 		app.createView();
 
 		});
